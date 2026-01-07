@@ -1,15 +1,17 @@
 /*
-Start with creating a terrain - 
-Go to windows-> package manager, click on unity registry and search for terrain tools, click on install button, then after installation click on ‘download asset from terrain store’ button on the same page, it will lead you to a page, and click on install there
-Similarly do for ‘starter assets first person updates’. 
+3rd
+install package -> terrain tools
+        asset store -> nature starter kit
+                    -> terrain sample asset
+                    -> starter assets first person updates
 
-Now in the hierarchy window, create a 3d object - terrain. ( position -500,0,-500)
-Next go to paint terrain and select ‘raise or lower terrain’ from the drop down menu
-Now click on brush of your choice and raise the terrain - which makes the island
+terrain -> paint texture -> add layer -> grass texture
+        -> edit trees -> add tree -> select tree prefab from nature starter kit
 
-Now we have to make water, so create 3d object and make new terrain ( position it 0,0.5,0) (scale 100,1,100). Now finish off the island as he did in the vid
+GameObj -> 3D -> windzone
 
-Now from the drop down, select smooth height and smoothen the island soft soft
+terrain -> (child) plane "water" (0, -1, 0....50, 0, 50)
+        -> assets -> create -> material -> water material
 
-Next create a new material -> assets ->create->  materials
+assets -> starter assets -> FPC -> Prefabs -> Player capsule (0,2,0) , main cam (0.2, 1.6, 0)
 */
